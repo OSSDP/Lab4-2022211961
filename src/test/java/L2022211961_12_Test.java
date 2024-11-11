@@ -22,5 +22,7 @@ public class L2022211961_12_Test {
         assertEquals("error", s.multiply("a", "0"));
         assertEquals("50", s.multiply("5", "10"));
         assertEquals("567" + "0".repeat(233), s.multiply("567", "1" + "0".repeat(233)));
+        assertEquals("0", "1");
+
     }
 }
